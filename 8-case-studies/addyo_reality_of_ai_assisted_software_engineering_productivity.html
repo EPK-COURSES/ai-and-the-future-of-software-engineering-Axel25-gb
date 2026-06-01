@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Reality of AI-Assisted Software Engineering Productivity – Addy Osmani / Elevate</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 20px; line-height: 1.75; color: #222; }
+    h1 { font-size: 1.5em; border-bottom: 2px solid #6b4fbb; padding-bottom: 12px; }
+    .meta { color: #555; font-size: 0.88em; margin-bottom: 24px; }
+    .source { background: #f5f0ff; border-left: 4px solid #6b4fbb; padding: 10px 16px; margin-bottom: 20px; }
+    .stat { background: #f0eeff; padding: 10px 16px; border-radius: 6px; margin: 10px 0; }
+    .stat strong { color: #4a0e8f; }
+    blockquote { border-left: 3px solid #aaa; margin: 16px 0; padding: 8px 16px; color: #444; font-style: italic; background: #fafafa; }
+    .tag { display: inline-block; background: #ece5ff; color: #5e35b1; border-radius: 4px; padding: 2px 8px; font-size: 0.82em; margin: 2px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    th { background: #f0eeff; color: #4a0e8f; }
+  </style>
+</head>
+<body>
+  <div class="source">Source: Addy Osmani / Elevate (Substack) — <a href="https://addyo.substack.com/p/the-reality-of-ai-assisted-software" target="_blank">https://addyo.substack.com/p/the-reality-of-ai-assisted-software</a></div>
+
+  <h1>The Reality of AI-Assisted Software Engineering Productivity</h1>
+  <p><em>What the data really shows about AI coding tools in 2025</em></p>
+
+  <div class="meta">
+    <strong>Author:</strong> Addy Osmani (Engineering Leader at Google, author of "Learning Patterns") &nbsp;|&nbsp;
+    <strong>Published:</strong> August 16, 2025 &nbsp;|&nbsp;
+    <strong>Publisher:</strong> Elevate (Substack)
+  </div>
+
+  <span class="tag">Developer Survey</span>
+  <span class="tag">Productivity Research</span>
+  <span class="tag">GitHub Copilot</span>
+  <span class="tag">2025 Analysis</span>
+
+  <h2>TL;DR</h2>
+  <p>
+    AI functions as a <strong>situational force multiplier</strong> — providing modest, uneven boosts that augment rather than transform engineering productivity. Studies show 20–30% productivity improvements, far from "10x" claims. Individual developers and those working on greenfield projects see speed boosts, but these gains are not yet translating to overall team or organizational productivity.
+  </p>
+
+  <h2>Adoption and Sentiment (Stack Overflow 2025 Survey, 49,000+ Developers)</h2>
+  <div class="stat"><strong>84%</strong> of developers are using or planning to use AI tools — up from 76% the prior year.</div>
+  <div class="stat"><strong>60%</strong> view AI tools favorably — down from over 70% in 2023.</div>
+  <div class="stat"><strong>46%</strong> of developers do not trust the accuracy of AI output — up from 31% the year prior.</div>
+  <div class="stat"><strong>66%</strong> cite "almost right but not quite" AI solutions as their biggest time sink.</div>
+  <div class="stat"><strong>72%</strong> say "vibe coding" (letting AI generate entire programs) is not part of their professional work.</div>
+
+  <h2>Key Studies Summarized</h2>
+  <table>
+    <tr>
+      <th>Study</th>
+      <th>Setting</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>Microsoft Research / Peng et al. (2023)</td>
+      <td>Controlled trial, freelance developers, HTTP server task</td>
+      <td>55.8% faster with Copilot</td>
+    </tr>
+    <tr>
+      <td>Microsoft + Accenture + Fortune 100 RCT (2024)</td>
+      <td>5,000 developers, real work settings</td>
+      <td>26% productivity increase; no quality drop</td>
+    </tr>
+    <tr>
+      <td>Google Internal RCT (2024)</td>
+      <td>~100 engineers, enterprise-grade task (~474 LOC)</td>
+      <td>21% faster (96 min vs 114 min)</td>
+    </tr>
+    <tr>
+      <td>METR Study — Becker et al. (July 2025)</td>
+      <td>16 experienced open-source developers, large codebases</td>
+      <td>19% <em>slower</em> with AI tools</td>
+    </tr>
+  </table>
+
+  <h2>The AI Productivity Paradox (Faros / DORA Data, 10,000 Developers)</h2>
+  <ul>
+    <li>Teams with high AI use completed <strong>21% more tasks</strong> and merged <strong>98% more pull requests</strong>.</li>
+    <li>But <strong>PR review times increased by 91%</strong>, creating a new human bottleneck.</li>
+    <li>Bug rates <strong>increased by 9%</strong> per developer.</li>
+    <li>Average PR size grew by <strong>154%</strong> — making review harder.</li>
+    <li>No significant correlation between AI adoption and <strong>better organizational delivery outcomes</strong> at company scale.</li>
+  </ul>
+
+  <h2>Where AI Helps Most</h2>
+  <ul>
+    <li>✅ Greenfield projects and prototyping</li>
+    <li>✅ Boilerplate and repetitive code</li>
+    <li>✅ Documentation and learning new technologies</li>
+    <li>✅ Onboarding to large codebases</li>
+    <li>✅ Debugging aids (feeding error logs to AI for analysis)</li>
+  </ul>
+
+  <h2>Where AI Struggles</h2>
+  <ul>
+    <li>❌ Large, complex legacy codebases</li>
+    <li>❌ Autonomous ("agentic") coding without human oversight</li>
+    <li>❌ Tasks requiring deep creative insight or novel architecture</li>
+    <li>❌ Code accepted too quickly without verification ("almost right" trap)</li>
+  </ul>
+
+  <h2>Key Conclusion</h2>
+  <blockquote>
+    "The future of coding is likely human+AI, not AI-alone. Embrace the helper, but keep your hands on the wheel and your engineering fundamentals sharp."
+  </blockquote>
+  <p>
+    AI coding tools are helpful assistants that, when used wisely, can make engineers moderately more productive and happier by automating some drudgery — but they are not a substitute for human insight, and they introduce new challenges (verification, coordination) that must be managed.
+  </p>
+
+  <h2>Relevance to This Assignment</h2>
+  <p>
+    This article by Addy Osmani (a well-known engineering leader at Google) provides one of the most comprehensive and balanced analyses of AI productivity data available as of mid-2025. It synthesizes multiple controlled trials including the studies from Microsoft, Google, and Faros/DORA, making it an ideal reference for cross-company comparison.
+  </p>
+</body>
+</html>
